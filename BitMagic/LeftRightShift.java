@@ -13,5 +13,7 @@ public class LeftRightShift {
         System.out.println(a<<b);
         System.out.println("Right Shift");
         System.out.println(a>>b);
+        System.out.println("Bitwise Not");
+        System.out.println(~a);
     }
 }
