@@ -9,9 +9,13 @@ public class CheckBit {
         int a = sc.nextInt();
         System.out.println("Please Enter the kth bit: ");
         int k = sc.nextInt();
-        int c =a<<(k-1);
-        int d = a&c;
-        if(d != 0){
+//        if((a&(1<<(k-1))) != 0){
+//            System.out.print("Yes");
+//        }
+//        else{
+//            System.out.print("No");
+//        }
+        if(((a>>(k-1))&1) != 0){
             System.out.print("Yes");
         }
         else{
