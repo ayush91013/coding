@@ -2,7 +2,7 @@ package BitMagic;
 
 import java.util.Scanner;
 
-public class OddOccurring {
+public class OddNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please Enter the Number of integers in array: ");
