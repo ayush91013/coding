@@ -11,6 +11,9 @@ public class PowerOf2 {
 //        int b = (int) c;
 //        double d = Math.pow(2,b);
 //        long e = (long) d;
+        if(a==0){
+            System.out.print("Not Power of 2");
+        }
         if((a&(a-1))==0){
             System.out.print("Power of 2");
         }
